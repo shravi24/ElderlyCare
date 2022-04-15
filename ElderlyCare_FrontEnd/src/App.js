@@ -14,7 +14,7 @@ import Detail from './components/detail';
 import Login from './adminComponents/login';
 import SingUp from './adminComponents/signUp';
 import AdminIndex from './adminIndex';
-import BookingForm from './adminComponents/BookingForm'
+// import BookingForm from './adminComponents/BookingForm'
 function App() {
   const [openMenu, setOpenMenu] = useState(false)
 
@@ -28,7 +28,7 @@ function App() {
           <Route path="/gesture/*" exact element={<AdminIndex />} />
           <Route path="/login" exact element={<Login />} />
           <Route path="/signup" exact element={<SingUp />} />
-          <Route path="/book" exact element={<BookingForm />} />
+          {/* <Route path="/book" exact element={<BookingForm />} /> */}
         </Routes>
       </Router>
     </div>
